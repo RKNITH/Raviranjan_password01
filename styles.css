@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(122, 170, 129, 1) 41%, rgba(253, 187, 45, 1) 100%);
+    color: #fff;
+
+}
+
+.container {
+    border: 0.5px solid rgb(197, 193, 193);
+    border-radius: 5px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #5f5656, 8px 8px 0px #f0e8e8;
+    gap: 1rem;
+    transition: all 1.5s;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+#heading {
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+
+.passBox {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox span {
+    position: absolute;
+    top: 15px;
+    right: 6px;
+    color: #5f5656;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+
+
+.slider_value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_value p,
+span {
+    font-size: 1.3rem;
+}
+
+.form1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.form2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.form3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.form4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    color: #9c9696;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: #583838;
+    font-weight: 900;
+
+}
